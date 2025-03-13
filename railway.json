@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": "node"
+  },
+  "deploy": {
+    "startCommand": "node server.js"
+  }
+}
