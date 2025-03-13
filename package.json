@@ -1,0 +1,14 @@
+{
+  "name": "linkedin-scraper",
+  "version": "1.0.0",
+  "description": "A simple LinkedIn scraper for n8n using Puppeteer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "puppeteer": "^21.0.0"
+  }
+}
