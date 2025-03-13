@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: linkedin-scraper
+    env: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LINKEDIN_COOKIE
+        sync: false
